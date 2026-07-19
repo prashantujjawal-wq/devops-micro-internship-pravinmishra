@@ -14,11 +14,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Prashant Ujjawal |
+| **LinkedIn** | [Prashant ujjawal](https://www.linkedin.com/in/prashant-ujjawal-cloud/) |
+| **Location** | India |
+| **Background** | Cloud, DevOps & AI|
+| **Goal** | AI and Cloud enthusiast |
 
 ---
 

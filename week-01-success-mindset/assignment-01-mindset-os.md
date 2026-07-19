@@ -33,7 +33,13 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I believe that a professional can successfully move into Cloud and DevOps even after spending many years in another technology domain.
+
+Many people believe that changing domains after gaining significant experience means starting again from zero. I disagree. Previous professional experience continues to provide valuable skills such as troubleshooting, analytical thinking, ownership, documentation, communication, production awareness, and systematic problem-solving.
+
+I am developing practical experience in Cloud and DevOps through hands-on projects involving Linux, Git, GitHub, Docker, Kubernetes, Terraform, Ansible, CI/CD, AWS, and Azure. My earlier experience working with complex production systems gives me a strong foundation for understanding reliability, performance, incidents, and operational responsibility.
+
+A career transition does not mean discarding previous experience. It means combining existing professional strengths with new technical skills.
 
 ---
 
@@ -55,11 +61,13 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Consistent hands-on practice produces better results than occasional long study sessions.
 
 ### Evidence from my life
 
-Add your answer here...
+Whenever I studied technical topics only before an interview, examination, or deadline, I understood them temporarily but forgot them quickly. When I started practising regularly, even for one or two focused hours, I understood concepts more deeply.
+
+Repeating Linux commands, working with Git, writing YAML files, creating cloud resources, deploying applications, and troubleshooting errors helped me retain more than simply watching videos. My progress improved when learning became a regular system rather than an emergency activity.
 
 ---
 
@@ -67,11 +75,15 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Practical execution reveals knowledge gaps that theoretical learning cannot expose.
 
 ### Evidence from my life
 
-Add your answer here...
+While learning Cloud and DevOps, many concepts appeared simple in videos and documentation. However, when I created virtual machines, configured Nginx, used Docker, wrote CI/CD pipelines, deployed applications, and worked with Kubernetes, I encountered real problems.
+
+These included authentication failures, networking issues, incorrect paths, YAML formatting errors, missing secrets, image pull failures, and unsuccessful deployments.
+
+These problems showed me exactly what I needed to improve. Completing hands-on projects has given me more confidence than passively completing a course.
 
 ---
 
@@ -79,11 +91,13 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Documentation makes technical learning faster and more valuable.
 
 ### Evidence from my life
 
-Add your answer here...
+I have sometimes solved an error but later forgotten the exact commands or steps. When I started documenting commands, screenshots, configuration files, mistakes, and troubleshooting steps, I was able to solve similar problems much faster.
+
+Documentation also helps me explain my projects clearly during interviews. Maintaining GitHub repositories, README files, architecture diagrams, and project notes has therefore become an important part of my Cloud and DevOps learning process.
 
 ---
 
@@ -135,7 +149,31 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+My Journey into Cloud and DevOps Engineering
+
+Over the next five years, Prashant Ujjawal established himself as a skilled Cloud and DevOps Engineer through consistent learning, practical execution, automation projects, and public proof of work.
+
+His transition was not based only on completing online courses or collecting certifications. It was built through hands-on projects involving Linux, Git, GitHub, Docker, Kubernetes, Terraform, Ansible, Nginx, CI/CD, AWS, and Azure.
+
+He created and deployed multiple practical projects. These included static websites hosted on AWS, applications deployed on Linux virtual machines, Nginx web-server configurations, containerized applications, Kubernetes workloads, cloud infrastructure created through Terraform, and automated deployment workflows using GitHub Actions and Azure DevOps.
+
+He learned how to build CI/CD pipelines that automatically tested, packaged, and deployed applications. He also used infrastructure as code to create repeatable cloud environments instead of manually configuring every resource.
+
+Rather than publishing only successful results, he documented failures, troubleshooting steps, root causes, and lessons learned. His GitHub repositories became a visible record of continuous improvement and practical Cloud and DevOps capability.
+
+His previous experience working with complex production technology systems gave him strong operational discipline. He already understood the importance of troubleshooting, performance analysis, incident handling, documentation, careful change execution, and collaboration with multiple teams.
+
+He applied these strengths to Cloud and DevOps environments. This helped him understand not only how to deploy applications, but also how to improve reliability, security, monitoring, repeatability, and operational efficiency.
+
+He earned industry-recognized certifications in cloud computing, Kubernetes, and DevOps technologies. However, his strongest evidence of capability came from projects that could be reviewed, tested, and explained.
+
+After moving into a Cloud and DevOps role, he contributed to infrastructure automation, deployment reliability, monitoring, security improvements, and incident reduction. He continued learning new tools while also strengthening his understanding of Linux, networking, cloud architecture, and automation.
+
+He regularly shared technical content in simple language. His articles and project documentation helped other professionals understand Linux, Docker, Kubernetes, Terraform, CI/CD, AWS, Azure, and career transition strategies.
+
+His journey demonstrated that professionals do not need to erase their previous experience when moving into Cloud and DevOps. They need to combine their existing strengths with consistent learning, practical execution, and visible proof of work.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining the Discord community shared by the program.
 
 ### Public Link
 
@@ -173,7 +211,15 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+Yes.
+
+At times, I have tried to complete a technical task quickly by following instructions without fully understanding every step. I have also occasionally postponed proper documentation after completing a lab or resolving an error.
+
+Although the output appeared complete, I did not always feel fully confident because I knew I might not be able to reproduce or explain the same solution independently.
+
+This created stress and dissatisfaction. It taught me that shortcuts may save time immediately, but they often create more work later.
+
+I now try to understand the purpose of important commands, validate the final result, document what I have done, and record any errors that I encountered. My goal is not only to complete assignments but also to develop skills that I can use independently in real Cloud and DevOps environments.
 
 ---
 
@@ -199,16 +245,15 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Atomic Habits — James Clear
+2. Deep Work — Cal Newport
+3. Mindset — Carol S. Dweck
+4. The Psychology of Money — Morgan Housel
+5. How to Win Friends and Influence People — Dale Carnegie
+6. The First 90 Days — Michael D. Watkins
+7. The Phoenix Project — Gene Kim, Kevin Behr and George Spafford
+8. The DevOps Handbook — Gene Kim, Jez Humble, Patrick Debois and John Willis
+9. The Pragmatic Programmer — David Thomas and Andrew Hunt
 
 ---
 
@@ -237,16 +282,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Focused Cloud and DevOps learning hours per week
+* Linux practice sessions completed
+* GitHub commits completed
+* Hands-on labs completed
+* Cloud resources created and configured
+* Docker projects completed
+* Kubernetes deployments completed
+* Terraform configurations written
+* CI/CD pipelines created
+* Projects deployed successfully
 
 ---
 
@@ -272,8 +317,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
-
+Yes
 ---
 
 ## Step 2: Your 5-Month Routine + Focus Blocks
@@ -298,7 +342,24 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Weekdays: approximately 8:30 PM to 11:30 PM
+Saturday: during the live session and an additional practice block
+Sunday: two to three hours for assignments, revision, and documentation
+Number of sessions per week
+
+I will complete six focused learning sessions every week, with one lighter day for rest or pending responsibilities.
+
+My Distraction Rules
+Keep my mobile phone away during focused study sessions.
+Disable non-essential notifications.
+Avoid social media during study blocks.
+Write one clear objective before starting each session.
+Focus on one technical topic at a time.
+Use the Pomodoro technique when concentration is low.
+Record unresolved issues instead of repeatedly changing tasks.
+Complete or document the current activity before starting another one.
+Avoid copying commands without understanding their purpose.
+Update GitHub or project notes after completing important work.
 
 #### How Many Sessions Per Week?
 
@@ -324,15 +385,33 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+Biggest insight I got about myself this week
+
+I realised that I already have several skills that are valuable in Cloud and DevOps, including troubleshooting, production awareness, analytical thinking, documentation, ownership, and persistence.
+
+My task is not to completely reinvent myself. My task is to combine these existing professional strengths with Linux, cloud platforms, automation, containers, Kubernetes, infrastructure as code, and CI/CD.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+My biggest weakness is that I sometimes switch tasks when I face a technical blockage.
+
+Instead of carefully reading the error and troubleshooting systematically, I may search multiple solutions or move to another topic. This can slow down my progress and reduce my understanding.
+
+I need to become more patient with errors and treat troubleshooting as an important part of learning.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Every weekday at 8:30 PM, I will begin one focused Cloud or DevOps learning session.
+
+Before starting, I will write one measurable outcome for the session.
+
+At the end of the session, I will record:
+
+What I completed
+What failed
+What I learned
+What I need to do next
+Whether the work should be documented on GitHub
 
 ### LinkedIn Post
 
