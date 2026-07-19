@@ -245,7 +245,8 @@ Choose books that improve:
 
 ## Book List
 
-1. [Atomic Habits — James Clear](D:\DMI\devops-micro-internship-pravinmishra\week-01-success-mindset\screenshots)
+1. Atomic Habits — James clear
+![book1](D:\DMI\devops-micro-internship-pravinmishra\week-01-success-mindset\screenshots)
 2. Deep Work — Cal Newport
 3. Mindset — Carol S. Dweck
 4. The Psychology of Money — Morgan Housel
