@@ -20,25 +20,25 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.3.1.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `ip a`
 
-Add your screenshot here.
+![screenshot2](screenshots/ss3.3.2.JPG)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-Add your screenshot here.
+![screenshot3](screenshots/ss3.3.3.JPG)
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
+![screenshot4](screenshots/ss3.3.4.JPG)
 
 ---
 
@@ -74,19 +74,18 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
-
+![screenshot1](screenshots/ss3.3.5.JPG)
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-Add your screenshot here.
+![screenshot2](screenshots/ss3.3.6.JPG)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-Add your screenshot here.
+![screenshot3](screenshots/ss3.3.7.JPG)
 
 ---
 
@@ -116,20 +115,19 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.3.8.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-Add your screenshot here.
+![screenshot2](screenshots/ss3.9.JPG)
 
 ---
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-Add your screenshot here.
-
+![screenshot3](screenshots/ss3.3.10.JPG)
 ---
 
 ### Notes
@@ -167,25 +165,25 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.3.11.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `free -h`
 
-Add your screenshot here.
+![screenshot2](screenshots/ss3.3.12.JPG)
 
 ---
 
 #### Screenshot 3 — Output of `df -h`
 
-Add your screenshot here.
+![screenshot3](screenshots/ss3.3.13.JPG)
 
 ---
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-Add your screenshot here.
+![screenshot4](screenshots/ss3.3.14.JPG)
 
 ---
 
@@ -215,7 +213,7 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.3.15.JPG)
 
 ---
 
@@ -227,7 +225,7 @@ Add your screenshot here.
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-Add your screenshot here.
+![screenshot3](screenshots/ss3.3.17.JPG)
 
 ---
 
@@ -263,7 +261,7 @@ Add your screenshot here.
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![screenshot3](screenshots/ss3.3.19.JPG)
 
 ---
 
@@ -299,13 +297,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+![screenshot3](screenshots/ss3.3.20.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![screenshot3](screenshots/ss3.3.19.JPG)
 
 ---
 
@@ -399,17 +397,17 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Screenshots (browser, ip a, ss -tulpen, ufw status) + Notes answered
-- [ ] Task 2: Screenshots (nginx status, nginx -t, ss port 80) + Notes answered
-- [ ] Task 3: Screenshots (access log, error log, journalctl) + Notes answered
-- [ ] Task 4: Screenshots (uptime, free -h, df -h, du -sh) + Notes answered
-- [ ] Task 5: Screenshots (ls html, grep deployed by, grep try_files) + Notes answered
-- [ ] Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
-- [ ] Task 7: Screenshots (curl failure, curl recovery) + Notes answered
-- [ ] Task 8: Security & Reliability Notes answered
+- [x] Task 1: Screenshots (browser, ip a, ss -tulpen, ufw status) + Notes answered
+- [x] Task 2: Screenshots (nginx status, nginx -t, ss port 80) + Notes answered
+- [x] Task 3: Screenshots (access log, error log, journalctl) + Notes answered
+- [x] Task 4: Screenshots (uptime, free -h, df -h, du -sh) + Notes answered
+- [x] Task 5: Screenshots (ls html, grep deployed by, grep try_files) + Notes answered
+- [x] Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
+- [x] Task 7: Screenshots (curl failure, curl recovery) + Notes answered
+- [x] Task 8: Security & Reliability Notes answered
 - [ ] LinkedIn post published and URL submitted
-- [ ] Full Name visible in all required screenshots
-- [ ] No sensitive data exposed
+- [x] Full Name visible in all required screenshots
+- [x] No sensitive data exposed
 
 ---
 
