@@ -20,13 +20,13 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.5.1.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-Add your screenshot here.
+![screenshot2](screenshots/ss3.5.2.JPG)
 
 ---
 
@@ -62,19 +62,19 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.5.3.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.5.4.JPG)
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.5.5.JPG)
 
 ---
 
@@ -110,13 +110,13 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.5.6.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.5.7.JPG)
 
 ---
 
@@ -152,13 +152,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.5.8.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-Add your screenshot here.
+![screenshot2](screenshots/ss3.5.9.JPG)
 
 ---
 
@@ -200,13 +200,13 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.5.10.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-Add your screenshot here.
+![screenshot2](screenshots/ss3.5.11.JPG)
 
 ---
 
@@ -254,13 +254,13 @@ Add your screenshot here.
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-Add your screenshot here.
+![screenshot2](screenshots/ss3.5.12.JPG)
 
 ---
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-Add your screenshot here.
+![screenshot3](screenshots/ss3.5.13.JPG)
 
 ---
 
