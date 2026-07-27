@@ -25,7 +25,8 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![screenshot4](screenshots/ss1.png)
+![screenshot4](screenshots/ss2.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -59,7 +60,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a user anywhere in the world opens the EpicReads online bookstore, their device uses the internet to reach the website hosted in Finland. First, the website name is linked to an IP address, which works like the unique address of the server. Data does not travel as one large file; it is broken into small parts called packets. This is called packet switching. Each packet may travel through different network paths and is joined again at the destination. The communication is controlled by TCP/IP. IP handles addressing and routing, while TCP makes sure packets arrive correctly and in the right order. Finally, the browser uses HTTP or the more secure HTTPS protocol to request web pages from the EpicReads server and display them to the user.
 
 ---
 
@@ -91,7 +92,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![screenshot4](screenshots/ss3.png)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +103,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+Next.js
+
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+Node.js
+
+
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+MySQL MongoDB
 
 ---
 
@@ -142,7 +143,9 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS, or Domain Name System, works like the internet’s phonebook. It converts an easy website name like epicreads.com into an IP address that computers understand, such as 52.172.142.222.
+To connect epicreads.com to this IP address, EpicReads should use a address record. A address record maps a domain name directly to an IPv4 address. After this, users can type epicreads.com instead of remembering 52.172.142.222:3000. 
+
 
 ---
 
@@ -178,8 +181,8 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
-
+![screenshot4](screenshots/ss5a.png)
+![screenshot4](screenshots/ss5b.png)
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
 
@@ -235,19 +238,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+I found the fundamental concepts of the Internet, including DNS, IP addresses, HTTP/HTTPS, and the journey of a request from a browser to a web server, easy to understand. The diagrams and practical examples helped simplify these topics and made the learning process more engaging.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Initially, I found it challenging to understand how different networking components work together. Relating concepts such as DNS, TCP/IP, data packets, and client-server communication required some time and revision. However, regular practice helped me understand the overall process more clearly.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Next week, I plan to focus more on hands-on practice rather than only reading the concepts. I will prepare notes, revise regularly, ask questions whenever I have doubts, and strengthen my networking fundamentals before progressing to more advanced DevOps topics.
 
 ---
 
