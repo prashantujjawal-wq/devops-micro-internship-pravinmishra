@@ -59,7 +59,7 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-![screenshot4](screenshots/ss3.2.png)
+![screenshot4](screenshots/ss3.2.JPG)
 
 ---
 
