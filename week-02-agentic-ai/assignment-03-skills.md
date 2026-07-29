@@ -93,6 +93,8 @@ https://github.com/prashantujjawal-wq
 
 ## LinkedIn post URL
 
+https://lnkd.in/p/g9e5rWJQ
+
 Paste your forked repository URL here:
 
 https://github.com/prashantujjawal-wq/Ultimate-Agentic-DevOps-with-Claude-Code
