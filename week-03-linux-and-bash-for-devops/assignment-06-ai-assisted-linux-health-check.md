@@ -20,13 +20,13 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 #### Screenshot 1 — Output of `systemctl is-active nginx`, `ss -ltn | grep ':80'`, and `curl -I http://localhost`
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.1.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.2.JPG)
 
 ---
 
@@ -62,7 +62,7 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.3.JPG)
 
 ---
 
@@ -98,8 +98,8 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-Add your screenshot here.
-
+![screenshot6](screenshots/ss6.4a.JPG)
+![screenshot6](screenshots/ss6.4b.JPG)
 ---
 
 ### Notes
@@ -134,25 +134,26 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.5a.JPG)
 
 ---
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.5b.JPG)
+![screenshot6](screenshots/ss6.5c.JPG)
 
 ---
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.5d.JPG)
 
 ---
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.6.JPG)
 
 ---
 
@@ -200,13 +201,13 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.7.JPG)
 
 ---
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.8.JPG)
 
 ---
 
@@ -248,13 +249,13 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.9.JPG)
 
 ---
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.10.JPG)
 
 ---
 
@@ -296,19 +297,20 @@ Create a controlled service failure, gather evidence through Bash, and let Claud
 
 #### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.11.JPG)
 
 ---
 
 #### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.12.JPG)
+![screenshot6](screenshots/ss6.13.JPG)
 
 ---
 
 #### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.14.JPG)
 
 ---
 
@@ -356,25 +358,25 @@ Recover the service as the human operator and prove that the system is healthy a
 
 #### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.15.JPG)
 
 ---
 
 #### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.16.JPG)
 
 ---
 
 #### Screenshot 18 — Output of `ls -lah reports` showing both `incident-failure-report.txt` and `recovery-report.txt`
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.17.JPG)
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
 
-Add your screenshot here.
+![screenshot6](screenshots/ss6.18.JPG)
 
 ---
 
@@ -502,20 +504,20 @@ Paste the URL of your GitHub folder or repository containing the assignment file
 
 # Completion Checklist
 
-- [ ] Task 1: Healthy baseline confirmed, workspace created (Screenshots 1–2, Notes answered)
-- [ ] Task 2: CLAUDE.md created with all four sections (Screenshot 3, Notes answered)
-- [ ] Task 3: Five-check plan produced by Claude using read-only tools (Screenshot 4, Notes answered)
-- [ ] Task 4: `linux-triage.sh` created, syntax validated, executable permission set (Screenshots 5–8, Notes answered)
-- [ ] Task 5: Healthy-state report generated with no FAIL result (Screenshots 9–10, Notes answered)
-- [ ] Task 6: `/linux-triage` skill created and run successfully on healthy server (Screenshots 11–12, Notes answered)
-- [ ] Task 7: Nginx incident simulated, failed evidence captured, Claude did not execute recovery (Screenshots 13–15, Notes answered)
-- [ ] Task 8: Nginx recovered manually, recovery verified, reports saved, incident summary complete (Screenshots 16–19, Notes answered)
-- [ ] Incident summary contains all seven required sections
+- [x] Task 1: Healthy baseline confirmed, workspace created (Screenshots 1–2, Notes answered)
+- [x] Task 2: CLAUDE.md created with all four sections (Screenshot 3, Notes answered)
+- [x] Task 3: Five-check plan produced by Claude using read-only tools (Screenshot 4, Notes answered)
+- [x] Task 4: `linux-triage.sh` created, syntax validated, executable permission set (Screenshots 5–8, Notes answered)
+- [x] Task 5: Healthy-state report generated with no FAIL result (Screenshots 9–10, Notes answered)
+- [x] Task 6: `/linux-triage` skill created and run successfully on healthy server (Screenshots 11–12, Notes answered)
+- [x] Task 7: Nginx incident simulated, failed evidence captured, Claude did not execute recovery (Screenshots 13–15, Notes answered)
+- [x] Task 8: Nginx recovered manually, recovery verified, reports saved, incident summary complete (Screenshots 16–19, Notes answered)
+- [x] Incident summary contains all seven required sections
 - [ ] LinkedIn post published and URL submitted
-- [ ] Full Name visible in all required screenshots and the Bash report
-- [ ] Skill does not have Write permission
-- [ ] Skill did not execute any recovery commands
-- [ ] No sensitive data exposed
+- [x] Full Name visible in all required screenshots and the Bash report
+- [x] Skill does not have Write permission
+- [x] Skill did not execute any recovery commands
+- [x] No sensitive data exposed
 
 ---
 
