@@ -171,7 +171,7 @@ https://lnkd.in/p/gs5dYMJg
 - [x] Nginx configured and active (Screenshots 7 & 8)
 - [x] Public IP retrieved (Screenshot 9)
 - [x] React app accessible in browser with personal details visible (Screenshot 10)
-- [ ] LinkedIn post published and URL submitted
+- [x] LinkedIn post published and URL submitted
 - [x] No sensitive data exposed
 
 ---
