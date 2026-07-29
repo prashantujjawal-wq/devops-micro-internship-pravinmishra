@@ -488,7 +488,7 @@ Add your screenshot here.
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-`Add your URL here`
+https://github.com/prashantujjawal-wq/devops-micro-internship-pravinmishra
 
 ---
 
