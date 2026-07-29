@@ -48,19 +48,18 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-Write your answer here.
-
+The output of sudo ss -tulpen showed port 80 in the LISTEN state on 0.0.0.0, confirming Nginx accepts HTTP traffic on all network interfaces.
 ---
 
 **2. What proves SSH is active on port 22?**
 
-Write your answer here.
+The same command showed sshd listening on port 22, confirming the server is ready to accept SSH connections.
 
 ---
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-Write your answer here.
+No, I found only the required ports such as 22 for SSH and 80 for HTTP. Keeping unnecessary ports closed reduces security risk.
 
 ---
 
@@ -95,13 +94,13 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
+The website may become unavailable or users may receive errors such as connection refused or 502 errors, resulting in downtime.
 
 ---
 
 **2. What's your basic rollback plan?**
 
-Write your answer here.
+I would restore the last working Nginx configuration, validate it with sudo nginx -t, and restart or reload Nginx after confirming the syntax is correct.
 
 ---
 
@@ -139,19 +138,19 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
-Write your answer here.
+No recent errors were found in the Nginx error log, which indicates that Nginx was operating normally during the check.
 
 ---
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
+It indicates that requests were being processed normally and no server-side failures were recorded during the monitoring period.
 
 ---
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Write your answer here.
+Yes, the curl requests appeared in the access log, proving that the requests reached Nginx and were successfully processed and logged.
 
 ---
 
@@ -193,13 +192,13 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
+None of the resources appeared critical, but disk usage should be monitored because logs, deployments and updates can gradually consume available storage.
 
 ---
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
+Applications may fail to write files or logs, deployments can fail, and services may crash or refuse to start, potentially causing downtime.
 
 ---
 
@@ -235,7 +234,7 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
+I verified the files in /var/www/html, searched for my personalized “Deployed by” text, and confirmed the updated application loaded through the server’s public IP.
 
 ---
 
@@ -271,19 +270,19 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
+The failure was caused by intentionally removing the semicolon from the try_files directive, which created an invalid Nginx configuration.
 
 ---
 
 **2. How did you fix the issue?**
 
-Write your answer here.
+I restored the missing semicolon, validated the configuration with sudo nginx -t, and restarted or reloaded Nginx after the test passed.
 
 ---
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
+Always run nginx -t before reloading Nginx, review configuration changes, use version control and test changes in a staging environment first.
 
 ---
 
@@ -313,19 +312,19 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
+The application broke because /var/www/html was replaced with an empty directory, so Nginx could not find the React build files.
 
 ---
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
+I removed the empty directory, restored the original deployment directory from backup, and confirmed recovery with an HTTP 200 OK response.
 
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
+I would use backups, version-controlled deployments, automated pipelines with rollback support, staging tests and post-deployment monitoring.
 
 ---
 
@@ -341,31 +340,31 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
+SSH keys are much harder to guess and avoid sharing reusable passwords between users.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
+Closing unused ports reduces the attack surface and limits the number of services exposed to the internet.
 
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
+It ensures Nginx starts automatically after a reboot, reducing downtime and avoiding manual recovery.
 
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
+Attackers could gain unauthorized access, steal data, misuse cloud resources or create unexpected charges.
 
 ---
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+Unused resources can continue generating charges and increase unnecessary security and maintenance risks.
 
 ---
 
