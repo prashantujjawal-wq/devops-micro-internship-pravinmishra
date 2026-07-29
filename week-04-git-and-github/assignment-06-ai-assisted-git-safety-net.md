@@ -35,7 +35,7 @@ Confirm you are working in your own fork, then create a dedicated branch for thi
 
 **1. Why create a dedicated branch instead of doing this work on main?**
 
-Add your answer here.
+A separate branch keeps the assignment changes isolated and allows them to be reviewed safely through a Pull Request before merging.
 
 ---
 
@@ -57,7 +57,7 @@ On your own fork of this repository (the one you've been submitting your DMI wor
 
 **1. Why does this assignment use an obviously fake key instead of a real one?**
 
-Add your answer here.
+A fake key safely tests secret detection without exposing a real credential or creating a security risk.
 
 ---
 
@@ -85,13 +85,14 @@ Create a tracked, shareable pre-commit hook that blocks a commit containing secr
 
 **1. Why is `hooks/pre-commit` tracked in the repo instead of living only in `.git/hooks/`?**
 
-Add your answer here.
+Files inside .git/hooks/ are local and are not shared through Git. Tracking the hook allows other users to use the same safety check.
+
 
 ---
 
 **2. Compare this to `PreToolUse` from Week 2 Assignment 6. What does each one intercept, and what do they have in common?**
 
-Add your answer here.
+The pre-commit hook intercepts a Git commit, while PreToolUse intercepts a Claude tool action. Both check an action before it happens and can block unsafe behavior.
 
 ---
 
@@ -113,13 +114,13 @@ Attempt to commit the staged file from Task 1 and show the hook rejecting it.
 
 **1. Which line in `hooks/pre-commit` matched your fake key, and why did it match?**
 
-Add your answer here.
+The line containing the pattern AKIA[0-9A-Z]{16} matched because the fake key began with AKIA followed by 16 uppercase characters.
 
 ---
 
 **2. Could this hook have caught a poorly-named variable that stores a secret without the `AKIA` prefix? What does that tell you about the limits of a fixed rule like this?**
 
-Add your answer here.
+It may not catch the secret if it does not match a configured pattern. This shows that fixed rules are reliable for known patterns but cannot detect every possible risk.
 
 ---
 
@@ -147,13 +148,13 @@ Create a manually invoked Claude Code skill that reads your staged changes and p
 
 **1. Why does `/pr-ready` have `Bash` and `Read` but not `Write`?**
 
-Add your answer here.
+It needs Bash and Read to inspect Git changes and files, but Write is excluded so it cannot modify the repository.
 
 ---
 
 **2. The pre-commit hook and `/pr-ready` both looked at the same staged diff. Did they flag the same things? What did one catch that the other didn't?**
 
-Add your answer here.
+Both identified the secret-like value, but /pr-ready also understood the debug statement and explained the risk using context.
 
 ---
 
@@ -182,7 +183,7 @@ Remove the secret and debug statement, then prove both gates now pass clean.
 
 **1. What exactly did you change to satisfy the pre-commit hook?**
 
-Add your answer here.
+I removed the fake hardcoded key and the debug statement, then updated the script to read the value from an environment variable.
 
 ---
 
@@ -212,20 +213,18 @@ https://github.com/prashantujjawal-wq/devops-micro-internship-interviews/pull/1
 
 **1. What, if anything, did you edit in the AI's drafted PR description before using it? Why?**
 
-Add your answer here.
-
+I edited the draft to match the actual files and validation steps I completed, removing any inaccurate or unverified statements.
 ---
 
 **2. If you had blindly copy-pasted the AI's draft without reading it, what could go wrong?**
 
-Add your answer here.
+It could include incorrect changes, mention tests that were not run, or mislead the reviewer.
 
 ---
 
 **3. Why does this PR need to target your own fork instead of the shared upstream repository?**
 
-Add your answer here.
-
+The files are part of my personal assignment work and are not intended as a contribution to the shared upstream repository.
 ---
 
 # Task 7 — Map the Workflow to the Agentic Loop
@@ -238,31 +237,31 @@ Explain this assignment's workflow using the same Gather → Analyze → Human A
 
 **1. Which step(s) represent Gather?**
 
-Add your answer here.
+The hook and /pr-ready gather the branch name, staged files, Git status and staged diff.
 
 ---
 
 **2. Which step(s) represent Analyze?**
 
-Add your answer here.
+The hook checks fixed patterns, while /pr-ready analyzes security risks, debug statements, scope and PR readiness.
 
 ---
 
 **3. Which step is Human Act, and why must a human — not Claude — run `git commit`, `git push`, and open the PR?**
 
-Add your answer here.
+Editing, committing, pushing and opening the PR are Human Act steps because they modify or publish repository changes and require human approval.
 
 ---
 
 **4. Which step is Verify?**
 
-Add your answer here.
+Verify means rerunning the hook and /pr-ready after fixing the issues and confirming that both checks pass.
 
 ---
 
 **5. In one or two sentences: why do you need *both* the fixed-rule pre-commit hook and the AI skill? Isn't one enough?**
 
-Add your answer here.
+The hook provides reliable fixed-rule enforcement, while the AI skill provides contextual analysis that fixed patterns may miss. Together they give stronger protection.
 
 ---
 
