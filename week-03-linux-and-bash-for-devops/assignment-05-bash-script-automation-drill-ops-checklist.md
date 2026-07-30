@@ -20,13 +20,13 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-![screenshot1](screenshots/ss3.5.1.JPG)
+![screenshot1](screenshots/ssb7.1.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-![screenshot2](screenshots/ss3.5.2.JPG)
+![screenshot2](screenshots/ssb7.2.JPG)
 
 ---
 
@@ -62,19 +62,19 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-![screenshot1](screenshots/ss3.5.3.JPG)
+![screenshot1](screenshots/ssb7.3.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-![screenshot1](screenshots/ss3.5.4.JPG)
+![screenshot1](screenshots/ssb7.4.JPG)
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-![screenshot1](screenshots/ss3.5.5.JPG)
+![screenshot1](screenshots/ssb7.5.JPG)
 
 ---
 
@@ -110,13 +110,13 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-![screenshot1](screenshots/ss3.5.6.JPG)
+![screenshot1](screenshots/ssb7.6.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-![screenshot1](screenshots/ss3.5.7.JPG)
+![screenshot1](screenshots/ssb7.7.JPG)
 
 ---
 
@@ -152,13 +152,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-![screenshot1](screenshots/ss3.5.8.JPG)
+![screenshot1](screenshots/ssb7.8.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-![screenshot2](screenshots/ss3.5.9.JPG)
+![screenshot2](screenshots/ssb7.9.JPG)
 
 ---
 
@@ -200,13 +200,13 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-![screenshot1](screenshots/ss3.5.10.JPG)
+![screenshot1](screenshots/ssb7.10.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-![screenshot2](screenshots/ss3.5.11.JPG)
+![screenshot2](screenshots/ssb7.11.JPG)
 
 ---
 
@@ -248,19 +248,19 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-Add your screenshot here.
+![screenshot3](screenshots/ssb7.12.JPG)
 
 ---
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-![screenshot2](screenshots/ss3.5.12.JPG)
+![screenshot2](screenshots/ssb7.13.JPG)
 
 ---
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-![screenshot3](screenshots/ss3.5.13.JPG)
+![screenshot3](screenshots/ssb7.14.JPG)
 
 ---
 
@@ -302,25 +302,24 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
-Add your screenshot here.
+![screenshot3](screenshots/ssb7.15.JPG)
 
 ---
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-Add your screenshot here.
+![screenshot3](screenshots/ssb7.16.JPG)
 
 ---
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-Add your screenshot here.
-
+![screenshot3](screenshots/ssb7.16a.JPG)
 ---
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-Add your screenshot here.
+![screenshot3](screenshots/ssb7.17.JPG)
 
 ---
 
@@ -361,19 +360,19 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-Add your screenshot here.
+![screenshot3](screenshots/ssb7.18.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-Add your screenshot here.
+![screenshot3](screenshots/ssb7.19.JPG)
 
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-Add your screenshot here.
+![screenshot3](screenshots/ssb7.20.JPG)
 
 ---
 
@@ -441,8 +440,8 @@ Add your screenshot here.
 - [x] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
 - [x] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
 - [x] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
-- [ ] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
-- [ ] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
+- [x] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
+- [x] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
 - [x] All scripts run without errors
 - [x] Full Name visible in all required screenshots
 - [ ] LinkedIn post published and URL submitted
