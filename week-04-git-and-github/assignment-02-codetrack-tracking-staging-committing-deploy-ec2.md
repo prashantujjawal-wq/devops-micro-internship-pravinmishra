@@ -170,7 +170,7 @@ https://lnkd.in/p/gUfXuXbb
 
 #### Screenshot — LinkedIn post showing the deployed CodeTrack application
 
-![screenshot16](ss2linkedin.JPG)
+![screenshot16](screenshots/ss2linkedin.JPG)
 
 ---
 
