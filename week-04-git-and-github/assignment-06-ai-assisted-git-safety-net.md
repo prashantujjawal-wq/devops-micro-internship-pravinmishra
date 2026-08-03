@@ -275,7 +275,7 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-Add your LinkedIn post URL here...
+https://lnkd.in/p/g3B9hPdq
 
 ---
 
@@ -283,9 +283,9 @@ Add your LinkedIn post URL here...
 
 Add 3-5 bullet points on what you learned this week.
 
--
--
--
+-Gained practical understanding of how Git pre-commit hooks serve as an automated safeguard by preventing commits that include risky content, such as hardcoded secrets or excessively large files.
+-Developed and used an AI-assisted /pr-ready skill to analyse staged changes and prepare a draft Pull Request title and description before submission.
+-Strengthened the role of human judgement by carefully reviewing AI-generated recommendations before committing changes, pushing them to the repository, and opening a Pull Request.
 
 ---
 
