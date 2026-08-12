@@ -120,13 +120,13 @@ Verify the deployed website and Nginx service are healthy.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/prashant-ujjawal-cloud_dmibypravinmishra-learninginpublic-activity-7492238515251052564-iFbD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGOurAIBVJIrm5LJF5zHqff-suwZ6n1bB8k
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-Add your screenshot here.
+![screenshot6](screenshots/sslinkedin_linux1.JPG)
 
 ---
 

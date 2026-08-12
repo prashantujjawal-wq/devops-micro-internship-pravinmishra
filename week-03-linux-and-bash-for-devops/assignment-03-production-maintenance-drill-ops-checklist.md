@@ -376,13 +376,13 @@ Unused resources can continue generating charges and increase unnecessary securi
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://lnkd.in/p/gnWbSHaH
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![screenshot3](screenshots/sslinkedin_linux3.JPG)
 
 ---
 

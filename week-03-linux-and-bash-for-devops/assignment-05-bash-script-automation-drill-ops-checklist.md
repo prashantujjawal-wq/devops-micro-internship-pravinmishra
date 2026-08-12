@@ -412,13 +412,13 @@ It uses variables to store data, arrays and loops to process tools, conditionals
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://lnkd.in/p/gjxC3Ju3
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![screenshot3](screenshots/sslinkedin_linux2.JPG)
 
 ---
 
