@@ -218,7 +218,7 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-Add your screenshot here.
+![screenshot3](screenshots/ss3.3.17.JPG)
 
 ---
 
@@ -248,13 +248,13 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
+![screenshot3](screenshots/ss3.3.19.JPG)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
+![screenshot3](screenshots/ss3.3.19.JPG)
 
 ---
 
