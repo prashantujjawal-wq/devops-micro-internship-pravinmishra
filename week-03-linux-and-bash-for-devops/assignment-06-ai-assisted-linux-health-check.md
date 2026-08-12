@@ -418,51 +418,53 @@ A chatbot gives general answers, while this agentic workflow analyzes real evide
 
 Fill in all seven sections below in your own words.
 
-**Full Name:** Add your full name here
+**Full Name:** Prashant Ujjawal
 
-**Date:** DD/MM/YYYY
+**Date:** 12/08/2026
 
 ---
 
 **1. Reported Symptom**
 
-Add your answer here.
+The website was not opening because the Nginx service had stopped.
+
+
 
 ---
 
 **2. Evidence Collected**
 
-Add your answer here.
+The Bash report showed that the Nginx service was inactive, port 80 was not listening, and the local HTTP check did not return 200 OK.
 
 ---
 
 **3. Most Likely Cause**
 
-Add your answer here.
+The most likely cause was that the Nginx service was stopped, so the web server was unable to serve the application.
 
 ---
 
 **4. Human-Approved Recovery Action**
 
-Add your answer here.
+After reviewing the report, I manually ran sudo systemctl start nginx to restore the service.
 
 ---
 
 **5. Verification**
 
-Add your answer here.
+I confirmed the recovery by checking that Nginx was active, curl -I http://localhost returned 200 OK, and the second triage report showed no failed checks.
 
 ---
 
 **6. Safety Decision**
 
-Add your answer here.
+The AI skill was only allowed to collect and analyze evidence. The recovery action was performed manually to keep the system safe and under human control.
 
 ---
 
 **7. Agentic Loop Mapping**
 
-Add your answer here.
+The incident followed the workflow: Gather (Bash collected evidence) → Analyze (Claude explained the issue) → Human Act (I started Nginx manually) → Verify (the second triage confirmed the service was healthy).
 
 ---
 
