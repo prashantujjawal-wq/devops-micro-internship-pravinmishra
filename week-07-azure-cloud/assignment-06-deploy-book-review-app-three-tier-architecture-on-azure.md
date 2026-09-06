@@ -20,13 +20,13 @@ Create an architecture diagram and implementation plan identifying the presentat
 
 #### Screenshot 1 — Architecture diagram showing the public entry point, three tiers, network boundaries, and traffic flow
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.1.JPG)
 
 ---
 
 #### Screenshot 2 — Written architecture assumptions and selected Azure services
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.2.JPG)
 
 ---
 
@@ -40,19 +40,19 @@ Create a dedicated Resource Group and VNet with separate subnets for the web, ap
 
 #### Screenshot 3 — Resource Group overview showing the assignment resources
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.3.JPG)
 
 ---
 
 #### Screenshot 4 — VNet overview showing the address space and all required subnets
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.4U.JPG)
 
 ---
 
 #### Screenshot 5 — Route-table or Private DNS evidence where applicable
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.5U.JPG)
 
 ---
 
@@ -66,13 +66,15 @@ Apply least-privilege NSG rules so traffic flows Internet → public entry point
 
 #### Screenshot 6 — NSG rules proving least-privilege access between the tiers
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.6a.JPG)
+![screenshot1](screenshots/ss6.6b.JPG)
+![screenshot1](screenshots/ss6.6c.JPG)
 
 ---
 
 #### Screenshot 7 — Key Vault or approved secret-management configuration (without displaying secret values)
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.7.JPG)
 
 ---
 
@@ -86,13 +88,13 @@ Deploy the Book Review App presentation layer on the approved web-tier compute s
 
 #### Screenshot 8 — Web-tier compute overview showing subnet and availability configuration
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.8.JPG)
 
 ---
 
 #### Screenshot 9 — Terminal or service output proving the presentation layer is running
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.9.JPG)
 
 ---
 
@@ -106,19 +108,19 @@ Deploy the Book Review App backend privately in the application subnet, configur
 
 #### Screenshot 10 — Application-tier compute overview showing private subnet placement
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.10.JPG)
 
 ---
 
 #### Screenshot 11 — Backend process, service, or listening-port evidence
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.11a.JPG)
 
 ---
 
 #### Screenshot 12 — Internal health-check or API response (without exposing secrets)
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.12.JPG)
 
 ---
 
@@ -132,19 +134,19 @@ Create a private Azure managed database (public access disabled), with availabil
 
 #### Screenshot 13 — Database overview showing private connectivity and public access disabled
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.13.JPG)
 
 ---
 
 #### Screenshot 14 — Availability, backup, and retention configuration
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.14.JPG)
 
 ---
 
 #### Screenshot 15 — Successful schema or connectivity verification (without exposing credentials)
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.15.JPG)
 
 ---
 
@@ -158,19 +160,19 @@ Configure the approved public entry service with health probes and backend pools
 
 #### Screenshot 16 — Public entry service showing listener, frontend endpoint, and healthy web targets
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.16.JPG)
 
 ---
 
 #### Screenshot 17 — Internal application-tier load-balancing or routing configuration where applicable
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.17.JPG)
 
 ---
 
 #### Screenshot 18 — Azure Monitor, diagnostic settings, logs, metrics, or alert evidence
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.18.JPG)
 
 ---
 
@@ -184,33 +186,33 @@ Confirm the Book Review App works end to end through the public endpoint, with a
 
 #### Screenshot 19 — Browser showing the Book Review App through the public endpoint
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.19.JPG)
 
 ---
 
 #### Screenshot 20 — Proof of successful database-backed read and write operations
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.19.JPG)
 
 ---
 
 #### Screenshot 21 — Evidence that private tiers are not publicly accessible
 
-Add your screenshot here.
+![screenshot1](screenshots/ss6.21.JPG)
 
 ---
 
 #### Screenshot 22 — Availability-test and healthy-target evidence
 
-Add your screenshot here.
-
+![screenshot1](screenshots/ss6.22a.JPG)
+![screenshot1](screenshots/ss6.22b.JPG)
 ---
 
 #### Public Endpoint
 
 Paste your public endpoint URL here:
 
-`Add your URL here`
+http://4.161.89.68/
 
 ---
 
@@ -218,7 +220,17 @@ Paste your public endpoint URL here:
 
 Summarize what worked, issues encountered and how they were fixed, and the availability/security/secrets/monitoring/backup choices made.
 
-Write your answer here.
+The Book Review application was successfully deployed on Microsoft Azure using a secure three-tier architecture. The Web VM hosts the Next.js frontend along with Nginx, while the Application VM runs the Node.js/Express backend inside a private application subnet. Azure Database for MySQL Flexible Server was configured with private networking to securely store application data. Azure Application Gateway serves as the public entry point, with private communication maintained between the Web, Application, and Database tiers.
+
+The complete application flow was tested successfully, including frontend access, API communication, user registration, and database connectivity.
+
+During the deployment, several real-world issues were encountered and resolved, including Public IP quota limitations, Nginx configuration problems, incorrect /api/api frontend routing, Next.js build permission issues, duplicate PM2 processes, and CORS errors. These troubleshooting activities provided valuable hands-on experience in deploying and debugging a multi-tier Azure application.
+
+Application availability was validated using Azure Application Gateway health probes. MySQL backup and retention settings were also configured to improve data protection and recovery readiness. Azure Monitor and diagnostic settings were reviewed and selected to support application and infrastructure monitoring.
+
+Azure Key Vault was additionally created for secure secret management. Integration of application secrets with Key Vault is planned once the required Key Vault Secrets Officer RBAC permission is assigned.
+
+Overall, this assignment provided practical experience with Azure networking, private subnets, Application Gateway, Linux VMs, Nginx, Node.js, MySQL Flexible Server, monitoring, RBAC, troubleshooting, and secure three-tier application deployment.
 
 ---
 
