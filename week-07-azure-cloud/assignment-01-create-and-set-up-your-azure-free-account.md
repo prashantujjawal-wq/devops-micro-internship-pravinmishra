@@ -44,7 +44,11 @@ Confirm successful Azure Portal access and Locate the required services and subs
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+I’m planning to start my Azure journey by exploring Resource Groups, Virtual Machines, and Azure App Services, as these are key building blocks for managing and hosting cloud applications.
+
+I also want to understand how Azure handles networking through Virtual Networks and Network Security Groups, along with storage using Azure Blob Storage. This will help me relate the AWS concepts I already know—such as EC2, VPC, and S3—to their Azure equivalents.
+
+Exploring Azure App Services will also give me hands-on experience with PaaS deployments and help me understand how applications can be integrated with automated CI/CD pipelines in Azure.
 
 ---
 
