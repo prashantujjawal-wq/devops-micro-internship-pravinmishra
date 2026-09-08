@@ -80,7 +80,8 @@ The `cloud-init.sh` file must contain the complete automated React application d
 
 Add a screenshot of VS Code showing the AzureRM provider, resource group, and Network Security Group configuration in `main.tf`.
 
-![screenshot1](screenshots/ss3.4.JPG)
+![screenshot1](screenshots/ss3.4a.JPG)
+![screenshot1](screenshots/ss3.4b.JPG)
 
 ---
 
@@ -100,8 +101,8 @@ Add a screenshot of VS Code showing the completed `cloud-init.sh` deployment scr
 
 Ensure that no passwords, Azure credentials, access tokens, SSH private keys, or other sensitive information are visible.
 
-![screenshot1](screenshots/ss3.6.JPG)
-
+![screenshot1](screenshots/ss3.6a.JPG)
+![screenshot1](screenshots/ss3.6b.JPG)
 ---
 
 ### Screenshot 7 — Public IP Output Block
@@ -140,7 +141,7 @@ Review the Terraform execution plan and provision the Azure infrastructure.
 
 Add a screenshot showing the Terraform plan summary and the proposed resources.
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.9.JPG)
 
 ---
 
@@ -148,7 +149,7 @@ Add your screenshot here.
 
 Add a screenshot showing successful `terraform apply` completion.
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.10.JPG)
 
 ---
 
@@ -156,7 +157,7 @@ Add your screenshot here.
 
 Add a screenshot showing the VM public IP address returned by `terraform output`.
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.11.JPG)
 
 ## VM Public IP Address
 
@@ -178,7 +179,7 @@ Connect to the Azure Linux virtual machine and confirm that the cloud-init/user 
 
 Add a screenshot of the SSH terminal showing a successful connection to the Azure VM and evidence that the React application deployment completed.
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.12.JPG)
 
 ---
 
@@ -186,7 +187,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing that the Nginx service is running successfully.
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.13.JPG)
 
 ---
 
@@ -204,7 +205,7 @@ Add a screenshot of the browser showing the deployed React application successfu
 
 Ensure that the Azure VM public IP is visible in the browser address bar.
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.14.JPG)
 
 ---
 
@@ -220,7 +221,7 @@ Remove all Azure resources created by Terraform after completing the application
 
 Add a screenshot of the terminal showing successful `terraform destroy` completion.
 
-Add your screenshot here.
+![screenshot1](screenshots/ss3.15.JPG)
 
 ---
 
